@@ -1,0 +1,39 @@
+# --- OS cruft ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Editor / IDE junk ---
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# --- Secrets & machine-local overrides ---
+# Never commit real secrets/tokens or machine-specific local overrides.
+*.local
+*.local.*
+.env
+.env.*
+!.env.example
+*_history
+.netrc
+id_rsa
+id_ed25519
+*.pem
+*.key
+
+# --- Backups made by install scripts ---
+*.bak
+*.orig
+*.backup
+
+# --- Package manager / tool cruft that sometimes leaks in ---
+node_modules/
