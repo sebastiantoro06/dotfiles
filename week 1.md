@@ -1,4 +1,4 @@
-## 2026-09-09 (Wed) — Week 1, Day 2
+## 2026-09 (Wed) — Week 1
 
 **Did:** Finished the Introduction and Ramping Up levels on Learn Git Branching.
 Created the dotfiles repo, pushed vscode-settings.json and the README. First commit
